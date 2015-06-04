@@ -34,12 +34,14 @@ puts grades["Jane Doe"] # => 0
 
 # Few methods examples which can be used on hash:
 
-# empty?
+# empty?:
+# -------
 # Returns true if hsh contains no key-value pairs.
 
 {}.empty?   #=> true
 
 # Flatten:
+# --------
 # Returns a new array that is a one-dimensional flattening of this hash. That is, for every key or value 
 # that is an array, extract its elements into the new array.
 
@@ -49,23 +51,27 @@ a.flatten(2) # => [1, "one", 2, 2, "two", 3, "three"]
 
 
 # has_key?
+# --------
 # Returns true if the given key is present in hash.
 h = { "a" => 100, "b" => 200 }
 h.has_key?("a")   #=> true
 h.has_key?("z")   #=> false
 
 # has_value?
+# ----------
 # Returns true if the given value is present in hash.
 h = { "a" => 100, "b" => 200 }
 h.has_value?(100)   #=> true
 h.has_value?(999)   #=> false
 
 # invert
+# ------
 # Returns a new hash created by using hsh’s values as keys, and the keys as values.
 h = { "n" => 100, "m" => 100, "y" => 300, "d" => 200, "a" => 0 }
 h.invert   #=> {0=>"a", 100=>"m", 200=>"d", 300=>"y"}
 
 # merge
+# -----
 # Returns a new hash containing the contents of other_hash and the contents of hsh. If no block is 
 # specified, the value for entries with duplicate keys will be that of other_hash. Otherwise the value 
 # for each duplicate key is determined by calling the block with the key, its value in hsh and its value
