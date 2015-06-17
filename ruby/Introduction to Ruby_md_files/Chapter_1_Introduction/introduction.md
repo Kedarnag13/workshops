@@ -1,5 +1,5 @@
 ## Introduction to Ruby
-1. Ruby
+1. **Ruby**
 	* *is a powerful, flexible programming language you can use in web/Internet development, to process text, to create games.*
 	* *is interpreted, meaning faster development loop, easier to arrange for dynamic behavior, makes the whole system portable.*
 	* *is Object Oriented, meaning it allows users to manipulate data structures called objects in order to build and execute programs.*
