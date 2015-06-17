@@ -101,7 +101,7 @@
 ```
 ----
 
-### Examples to relate Ruby datatypes
+### Examples relating to Ruby datatypes (Java Program)
 
 ```
 	package primitive;  
@@ -132,7 +132,21 @@
     }  
 }  
 ```
+#### Output
+```
+byte Value = 100
+short Value = 123
+int Value = 123543
+int second Value = -9876345
+long Value = 1234567891
+float Value = 12.25f
+double Value = 12345.234d
+boolean Value = true
+boolean Value = false
+char Value = X
+char Value = Y
 ----
+
 
 
 
