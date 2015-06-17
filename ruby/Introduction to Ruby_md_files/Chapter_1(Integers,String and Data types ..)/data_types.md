@@ -81,6 +81,7 @@
 		* arr.compact => ['foo', 0, 'bar', 7, 'baz']
 		* arr.compact! => ['foo', 0, 'bar', 7, 'baz']
 ```
+
 	* **Unique**
 ```
 		* To remove duplicate values from array.
