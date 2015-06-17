@@ -29,8 +29,7 @@
   		puts v.inspect + ' ' + v.object_id.to_s
 	end 
 ```
-========
-Output
+#### Output
 ========
 ```
 	:foo 533768
@@ -40,6 +39,7 @@ Output
 	:bar 533928
 	:bar 533928
 ```
+========
 ### Strings
 1. *A String object holds and manipulates an arbitrary sequence of bytes, typically representing characters. String objects may be created using String::new or as literals.*
 2. *Each String object is distinct even if the values are identical*
