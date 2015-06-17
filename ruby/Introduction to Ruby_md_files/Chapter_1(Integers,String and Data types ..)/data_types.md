@@ -10,13 +10,13 @@
 
 ### Boolean
 1. *Boolean data type is a data type, having two values (usually denoted true and false), intended to represent the truth values of logic and Boolean algebra.*
-	 true.is_a?(Boolean) => true
-	 false.is_a?(Boolean) => true
-	 "String".boolean? => false
-	 1.boolean? => false
-	 Time.now.boolean? => false
-	 nil.boolean? => false
-	 true.boolean? => true 
-	 false.boolean? => true
-	 (1==1).boolean? => true
-	 (1==2).boolean? => true
+	 * true.is_a?(Boolean) => true
+	 * false.is_a?(Boolean) => true
+	 * "String".boolean? => false
+	 * 1.boolean? => false
+	 * Time.now.boolean? => false
+	 * nil.boolean? => false
+	 * true.boolean? => true 
+	 * false.boolean? => true
+	 * (1==1).boolean? => true
+	 * (1==2).boolean? => true
