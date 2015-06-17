@@ -7,5 +7,5 @@
 
 2. **Installation**
 	* *To install Ruby we can make use of several tools.*
-	* *Please click on the following [link](https://www.ruby-lang.org/en/documentation/installation/), upon redirecting you can find a detailed explanation on how to install Ruby*
+	* *Please click on the following [link](https://www.ruby-lang.org/en/documentation/installation/), upon redirecting you can find a detailed explanation on how to install Ruby.*
  
