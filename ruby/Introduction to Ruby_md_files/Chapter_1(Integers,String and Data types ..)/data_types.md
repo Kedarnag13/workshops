@@ -65,7 +65,7 @@
 5. *An index of -1 indicates the last element of the array, -2 is the next to last element in the array, and so on.*
 6. *Ruby arrays can hold objects such as String, Integer, Fixnum, Hash, Symbol, even other Array objects.*
 7. *Ruby arrays grow automatically while adding elements to them.*
-8. **Syntax Create Arrays**
+8. **Syntax**
 	* arr = Array.new
 	* arr = Array.new(10)
 	* p arr.size => 10
@@ -81,5 +81,24 @@
 		* To remove duplicate values from array.
 		* arr = [1,2,4,5,1,4,1,3,7,8,9,1]
 		* arr.uniq => [1, 2, 4, 5, 3, 7, 8, 9]
+----
+### Hashes
+1. *A Hash is a dictionary-like collection of unique keys and their values.*
+2. *They are similar to Arrays, but where an Array uses integers as its index, a Hash allows you to use any object type.*
+3. **Syntax**
+	* has = Hash.new
+	* has = Hash.new "value"
+```
+	months = Hash.new( "month" )
+	months = {"1" => "January", "2" => "February"}
+	keys = months.keys
+	puts "#{keys}"
+```
+#### Output
+```
+["1", "2"]
+```
+----
+
 
 
