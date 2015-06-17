@@ -20,3 +20,11 @@
 	 * false.boolean? => true
 	 * (1==1).boolean? => true
 	 * (1==2).boolean? => true
+
+### Symbols
+1. *Symbols are strings, just an difference, Symbols are immutable. Mutable objects can be changed after assignment while immutable objects can only be overwritten.* 
+2. *Every Symbol with the same value refers to the same object*
+	``` [ :foo, :foo, :foo, :bar, :bar, :bar ].each do |v|
+  		puts v.inspect + ' ' + v.object_id.to_s
+	end 
+	```
