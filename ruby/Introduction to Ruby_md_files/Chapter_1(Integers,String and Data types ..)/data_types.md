@@ -57,3 +57,16 @@
 "bar" 70169800633040
 ```
 ----
+### Arrays
+1. *Ruby arrays are ordered, integer-indexed collections of any object.*
+2. *Each element in an array is associated with and referred to by an index.*
+3. *Array indexing starts at 0, as is any other Programming Language such as C or Java.*
+4. *A negative index is assumed relative to the end of the array.*
+5. *An index of -1 indicates the last element of the array, -2 is the next to last element in the array, and so on.*
+6. *Ruby arrays can hold objects such as String, Integer, Fixnum, Hash, Symbol, even other Array objects.*
+7. *Ruby arrays grow automatically while adding elements to them.*
+8. **Syntax Create Arrays**
+	* arr = Array.new
+	* arr = Array.new(10)
+	* p arr.size 
+
