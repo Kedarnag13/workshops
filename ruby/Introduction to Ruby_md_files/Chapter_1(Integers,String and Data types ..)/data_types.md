@@ -7,3 +7,7 @@
 	* Strings
 	* Arrays
 	* Hashes 
+
+### Boolean
+1. true.is_a?(Boolean) => true
+2. false.is_a?(Boolean) => true
