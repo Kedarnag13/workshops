@@ -81,6 +81,7 @@
 		* To remove duplicate values from array.
 		* arr = [1,2,4,5,1,4,1,3,7,8,9,1]
 		* arr.uniq => [1, 2, 4, 5, 3, 7, 8, 9]
+
 ----
 ### Hashes
 1. *A Hash is a dictionary-like collection of unique keys and their values.*
