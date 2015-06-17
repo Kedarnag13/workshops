@@ -68,5 +68,8 @@
 8. **Syntax Create Arrays**
 	* arr = Array.new
 	* arr = Array.new(10)
-	* p arr.size 
+	* p arr.size => 10
+	* p arr.length => 10
+	* numbers = Array(0..9)
+	* puts "#{numbers}" => [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
