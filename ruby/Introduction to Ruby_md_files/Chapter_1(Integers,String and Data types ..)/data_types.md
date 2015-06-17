@@ -72,12 +72,12 @@
 	* p arr.length => 10
 	* numbers = Array(0..9) => [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 9. *Some of the built-in methods of Arrays*
-	* ##### Compact 
+	* *Compact* 
 		* Method used to remove nil value from array.
 		* arr = ['foo', 0, nil, 'bar', 7, 'baz', nil]
 		* arr.compact => ['foo', 0, 'bar', 7, 'baz']
 		* arr.compact! => ['foo', 0, 'bar', 7, 'baz']
-	* ##### Unique
+	* *Unique*
 		* To remove duplicate values from array.
 		* arr = [1,2,4,5,1,4,1,3,7,8,9,1]
 		* arr.uniq => [1, 2, 4, 5, 3, 7, 8, 9]
