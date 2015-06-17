@@ -70,6 +70,12 @@
 	* arr = Array.new(10)
 	* p arr.size => 10
 	* p arr.length => 10
-	* numbers = Array(0..9)
-	* puts "#{numbers}" => [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+	* numbers = Array(0..9) => [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+9. *Some of the built-in methods of Arrays*
+	* Compact 
+		* Method used to remove nil value from array.
+		* arr = ['foo', 0, nil, 'bar', 7, 'baz', nil]
+		* arr.compact => ['foo', 0, 'bar', 7, 'baz']
+		* arr.compact! => ['foo', 0, 'bar', 7, 'baz']
+
 
