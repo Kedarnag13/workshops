@@ -8,6 +8,7 @@
 ```
 3. *Now, when we run the ruby script*
 	* ruby filename.rb argument1 argument2 argument3
+
 #### Output
 ```
 	Your first variable is argument1
@@ -17,6 +18,7 @@
 4. *Difference between gets.chomp and argv*
 	* *When user wants to give input using command line then we can make use of ARGV*
 	* *When the user wants to give input using keyboard while the script is running then we can make use of gets.chomp*
+
 #### Example
 ```
 	user_name = ARGV.first
